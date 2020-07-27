@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  height: 100vh;
+  margin: 0 auto -60px;
+  font-family: monospace;
+  font-weight: 400;
+  background-color: #0e0e0e;
+}
+.site-header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 57px;
+  padding-top: 5px;
+  padding-right: 1rem;
+  padding-bottom: 5px;
+  padding-left: 1rem;
+  font-size: 14px;
+}
+.site-header a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.site-header a:hover {
+  color: #999999;
+}
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.masthead h1 {
+  font-size: 33px;
+  line-height: 42px;
+  color: #f9f9f9;
+}
+.masthead p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #999999;
+}
+.masthead-contents {
+  max-width: 550px;
+}
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 18px;
+  padding-right: 1rem;
+  padding-bottom: 14px;
+  padding-left: 1rem;
+  font-size: 14px;
+  line-height: 25px;
+  color: #999999;
+  background-color: #f9f9f9;
+}
+.site-footer .social {
+  display: flex;
+  font-size: 0;
+}
+.site-footer .footer-text {
+  margin-left: auto;
+}
+.social a {
+  display: inline-flex;
+  vertical-align: middle;
+  padding-right: 0.75rem;
+}
+.social svg {
+  fill: #cecece;
+  height: 24px;
+  width: 24px;
+}
